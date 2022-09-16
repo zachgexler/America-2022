@@ -13,21 +13,18 @@
 
 <body>
     <div class="text-center">
-    <h3 > Meet The Teamx </h3>
-    <h1>
+    <h3 > Meet The Team </h3>
+    <h1 class="staff-name">
         <%=staff.name%>
     </h1>
     <img src="<%=staff.img%>" 
     style="height: 300px; width: 300px; border-radius: 50%;"  alt="staff member">
-    
-
-    
-    <h3>
+    <h3 class="staff-title">
         <%=staff.title%>
     </h3><br>
-    <h4><%=staff.job%></h4><br>
-    <h5><%=staff.tasks%></h5>
-    <a href="/staff/<%=staff._id %>/edit">Edit Task</a>
+    <p class="staff-job"><%=staff.job%></p><br>
+    <p class="staff-task"><%=staff.tasks%></p>
+    <a class="btn btn-info" href="/staff/<%=staff._id %>/edit">Edit Task</a>
     <br>
 
     </div>

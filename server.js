@@ -30,25 +30,27 @@ app.use(methodOverride("_method"));
 const Seed = require("./models/seed.js");
 const Staff = require("./models/schema.js")
 
+
 app.get('/staff/seed', (req, res) => {
     console.log("in seed");
-    Staff.deleteMany({}, (error, allSeeds) => {});
+    Staff.deleteMany({}, (error, allSeeds) => {
+        if (error) console.log(error);
+    });
 
     Staff.create(Seed, (error, data) => {
-        console.log(data);
         res.redirect('/staff');
     });
 });
 
 //INDEX
 app.get("/staff", (req, res) => {
+    console.log("Data has been seeded");
     Staff.find((error, allStaff) => {
         res.render('index.ejs', {
-            allStaff : allStaff
+            allStaff: allStaff
         });
     });
 })
-
 
 //GET new
 app.get("/staff/new", (req, res) => {
@@ -87,6 +89,7 @@ app.put("/staff/:id", (req, res) => {
         }
     )
 });
+
 
 // SHOW
 app.get("/staff/:id", (req, res) => {
