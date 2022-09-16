@@ -26,12 +26,10 @@
         <%=staff.title%>
     </h3><br>
     <h4><%=staff.job%></h4><br>
-    <h1><%=staff.tasks%></h1>
+    <h5><%=staff.tasks%></h5>
     <a href="/staff/<%=staff._id %>/edit">Edit Task</a>
     <br>
-    <form action="/staff/<%= staff._id %>?_method=DELETE" method="POST">
-        <input type="submit" value="Fire" />
-    </form>
+
     </div>
 
 </body>

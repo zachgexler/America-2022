@@ -7,6 +7,7 @@ const methodOverride = require("method-override")
 
 app.use(express.static(__dirname + '/public'));
 
+
 // DATABASE CONFIGURATION
 mongoose.connect(process.env.DATABASE_URL, {
     useNewUrlParser: true,
@@ -62,14 +63,6 @@ app.post("/staff/new", (req, res) => {
     });
 })
 
-
-// SHOW
-app.get("/staff/:id", (req, res) => {
-    Staff.findById(req.params.id, (err, staff) => {
-        res.render("show.ejs", { staff: staff })
-    })
-})
-
 // DELETE
 app.delete("/staff/:id", (req, res) => {
     Staff.findByIdAndDelete(req.params.id, (err, foundStaff) => {
@@ -95,12 +88,16 @@ app.put("/staff/:id", (req, res) => {
     )
 });
 
+// SHOW
+app.get("/staff/:id", (req, res) => {
+    Staff.findById(req.params.id, (err, staff) => {
+        res.render("show.ejs", { staff: staff })
+    })
+})
 
 
 
-
-
-// LISTENER
+// // LISTENER
 const PORT = process.env.PORT || 1776;
 app.listen(PORT, () => {
     console.log(`The serer is listening on port: ${PORT}`)

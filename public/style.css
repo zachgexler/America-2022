@@ -1,8 +1,71 @@
-#staff-title {
-    color: brown;
-    text-decoration: solid;
+.now {
+        color:red;
+        font-size: 30px;
+    }
+
+
+
+body{
+
+    background-image: url("Assets/header.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: white;
 }
-.idx-img {
-    height: 100px; 
-    width: 100px;
+.staff-display {
+
+    background-color: black;
+}
+
+.top-title {
+    background-image: url("assets/header.gif");
+    background-size: cover;
+    background-position: 100%;
+    color: black;
+}
+
+h1 {
+    color: white !important;
+}
+
+div {
+    font-family:'Times New Roman', Times, serif
+}
+
+h2 {
+    color: white !important;
+}
+
+#staff-name{
+
+    color:red;
+    font-size: 30px;
+}
+
+
+#staff-title{
+
+    color:white;
+    background-color: black;
+    font-size: 30px;
+}
+
+#staff-job{
+    color: blue;
+    font-size: 30px;
+}
+
+#diesel-price {
+    color: blue;
+    font-size: 30px;
+}
+
+h3 {
+
+    color: white !important;
 }
