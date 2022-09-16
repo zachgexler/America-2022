@@ -34,20 +34,20 @@ h2 {
     color: white !important;
 }
 
-#staff-name a{
+.staff-name a, .staff-name{
 
     color:blue;
     font-size: 30px;
 }
 
 
-#staff-title{
+.staff-title{
 
     color:rgb(212, 44, 44);
     font-size: large;
 }
 
-#staff-job{
+.staff-job{
     color: rgb(0, 0, 0);
     font-size: medium;
 }
