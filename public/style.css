@@ -79,13 +79,31 @@ h3 {
 }
 
 .staff-display img {
-    /* border-radius: 50%; */
+    border-radius: 50%;
 }
 
 .each-staff {
+    border: 1px solid white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #697a9a;
+    border-radius: 25px;
 }
 
 button a {
     text-decoration: none;
     color: black;
+}
+
+.top-part {
+
+}
+
+ul {
+    border-radius: 4px !important;
+    margin-bottom: 10px !important;
+}
+
+.task-list {
+    background-color: rgb(195, 241, 247) !important;
 }
