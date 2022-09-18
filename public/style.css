@@ -1,50 +1,40 @@
-body{
-
-    background-image: url("Assets/header.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-position-x: center;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-    color: white;
-}
 .staff-display {
 
     background-color: white;
 }
 
-.top-title {
-    background-image: url("assets/header.gif");
-    background-size: cover;
-    background-position: 100%;
-    color: black;
-}
 
 h1 {
     color: white !important;
+    font-family:fantasy
 }
 
 div {
-    font-family:'Times New Roman', Times, serif
+    font-family:fantasy;
 }
 
 h2 {
     color: white !important;
 }
 
-.staff-name a, .staff-name{
+a {
+    color:rgb(15, 4, 100);
+    font-size: 70px;
+}
 
-    color:blue;
-    font-size: 30px;
+
+.staff-name{
+
+    color:rgb(13, 13, 215);
+    font-size: 70px;
 }
 
 
 .staff-title{
 
     color:rgb(212, 44, 44);
-    font-size: large;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .staff-job{
@@ -67,14 +57,15 @@ h3 {
 }
 
 .big-header {
-    height: 300px;
+    height: 400px;
     background-color: beige;
-    background-image: url("https://media4.giphy.com/media/3osxYcwi3hCVbzNYqY/giphy.gif?cid=ecf05e472u6es7y3km3ruy9t9uxwze1dcrk07ekqj0eucqsb&rid=giphy.gif&ct=g");
-    background-size: cover;
+    background-image: url("https://media.giphy.com/media/QMkPpxPDYY0fu/giphy.gif");
+    background-size:cover;
+   
 }
 
 .big-header h2 {
-    font-size: 50px;
+    font-size: 75px;
     line-height: 6;
 }
 
@@ -95,9 +86,6 @@ button a {
     color: black;
 }
 
-.top-part {
-
-}
 
 ul {
     border-radius: 4px !important;
@@ -105,5 +93,5 @@ ul {
 }
 
 .task-list {
-    background-color: rgb(195, 241, 247) !important;
+    background-color:cornflowerblue !important;
 }

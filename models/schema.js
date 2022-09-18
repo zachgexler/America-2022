@@ -6,7 +6,7 @@ const staffSchema = new mongoose.Schema({
     job: {type: String, required: true},
     img : {type: String, required: true},
     tasks: {type: Array, required: true},
-    comments: {type: Array, required: false},
+    comments: {type: Array, required: true},
 });
 
 const Staff = mongoose.model('Staff', staffSchema);
