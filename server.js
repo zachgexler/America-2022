@@ -4,6 +4,7 @@ const app = express();
 require("dotenv").config();
 const mongoose = require("mongoose");
 const methodOverride = require("method-override")
+const mongoURI = process.env.MONGODB_URI
 
 app.use(express.static(__dirname + '/public'));
 
@@ -30,6 +31,10 @@ app.use(methodOverride("_method"));
 const Seed = require("./models/seed.js");
 const Staff = require("./models/schema.js")
 
+app.get('/', (req,res) => {
+    console.log("default");
+    res.redirect('/staff/seed');
+})
 
 app.get('/staff/seed', (req, res) => {
     console.log("in seed");
