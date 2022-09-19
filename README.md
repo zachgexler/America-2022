@@ -7,8 +7,8 @@
 <img width="495" alt="Screen Shot 2022-09-18 at 7 31 36 PM" src="https://user-images.githubusercontent.com/110911839/190932924-d095dcb5-1aba-4ac8-8378-b0d945105b0c.png">
 <img width="1203" alt="Screen Shot 2022-09-18 at 7 32 03 PM" src="https://user-images.githubusercontent.com/110911839/190932925-8306b34c-5815-4b87-b03b-a2367afcc61f.png">
 <img width="1221" alt="Screen Shot 2022-09-18 at 7 32 20 PM" src="https://user-images.githubusercontent.com/110911839/190932926-68348c84-b440-425f-9fff-f9a82628edb4.png">
-# America-2022
-## Gas Me Up
+## America-2022
+
 
 The web based app is an example of a politcal campaign task management platform. 
 
@@ -35,8 +35,9 @@ The web based app is an example of a politcal campaign task management platform.
 ## Project Link
 
 Project 2 GA America 2022 Mind-blowing Link Below!
+(https://america-2022.herokuapp.com/staff)
 
-[(https://zachgexler.github.io/America-2022/)](https://america-2022.herokuapp.com/)
+Deployed via Heroku.
 
 ## Unsolved Problems
 
