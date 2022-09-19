@@ -36,7 +36,7 @@ The web based app is an example of a politcal campaign task management platform.
 
 Project 2 GA America 2022 Mind-blowing Link Below!
 
-(https://zachgexler.github.io/America-2022/)
+[(https://zachgexler.github.io/America-2022/)](https://america-2022.herokuapp.com/)
 
 ## Unsolved Problems
 
@@ -44,8 +44,7 @@ Project 2 GA America 2022 Mind-blowing Link Below!
 *More Data
 *Poll
 *Log-in
-
-## Screenshots
+*Heroku
 
 ## Favorite
 
